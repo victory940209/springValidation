@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springValidation
+  pid:
+    file: /data1/api/${spring.application.name}.pid
+
+
+logging:
+  config: classpath:logback-local.xml
+  
+
